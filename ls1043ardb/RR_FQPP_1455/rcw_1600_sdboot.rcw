@@ -32,7 +32,7 @@
  *
  * DDR clock:
  * DDR_REFCLK_SEL : 1 - DDRCLK pin provides the reference clock to the DDR PLL
- *
+ * SRDS_PLL_REF_CLK_SEL_S1=2
  */
 
 #include <../ls1043aqds/ls1043a.rcwi>
@@ -43,7 +43,6 @@ CGA_PLL1_RAT=16
 CGA_PLL2_RAT=10
 SRDS_PRTCL_S1=5205
 FM1_MAC_RAT=1
-SRDS_PLL_REF_CLK_SEL_S1=2
 SRDS_DIV_PEX=1
 DDR_FDBK_MULT=2
 DDR_REFCLK_SEL=0
@@ -60,7 +59,7 @@ EVDD_VSEL=2
 IIC2_EXT=0
 SYSCLK_FREQ=600
 HWA_CGA_M2_CLK_SEL=1
-SRDS_PLL_PD_S1=3
+SRDS_PLL_PD_S1=2
 SRDS_PLL_REF_CLK_SEL_S1=0
 
 #include <../ls1043aqds/atf_address.rcw>
