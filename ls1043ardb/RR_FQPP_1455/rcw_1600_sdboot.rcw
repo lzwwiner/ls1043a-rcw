@@ -64,6 +64,15 @@ SRDS_PLL_REF_CLK_SEL_S1=0
 
 IRQ_EXT=0
 IRQ_BASE=1
+IRQ03_BASE=1
+IRQ04_BASE=1
+IRQ05_BASE=1
+IRQ06_BASE=1
+IRQ07_BASE=1
+IRQ08_BASE=1
+IRQ09_BASE=1
+IRQ10_BASE=1
+IRQ11_BASE=1
 
 #include <../ls1043aqds/atf_address.rcw>
 #include <../ls1043aqds/cci_barrier_disable.rcw>
